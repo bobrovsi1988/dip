@@ -1,5 +1,12 @@
-header div {
-  height: 30px; }
+header {
+  background-color: orange; }
+  header .logo {
+    height: 80px; }
+  header img {
+    height: 30px; }
+
+product :hover {
+  cursor: pointer; }
 
 .carousel-item img {
   height: 400px;

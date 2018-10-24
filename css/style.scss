@@ -1,7 +1,20 @@
 header{
-  div{
+  background-color: orange;
+  .logo{
+    height: 80px;
+  }
+  img{
     height: 30px;
   }
+  div{
+
+  }
+}
+product{
+  :hover{
+    cursor: pointer;
+  }
+
 }
 .carousel-item{
   img{
