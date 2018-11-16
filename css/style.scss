@@ -1,4 +1,7 @@
-header{
+
+
+header, footer{
+  padding-top: 20px;
   background-color: orange;
   .logo{
     height: 80px;
@@ -6,9 +9,25 @@ header{
   img{
     height: 30px;
   }
+  .menu{
+    background-color: #FFC273;
+    color: black;
+  }
   div{
 
   }
+}
+.admin{
+  margin-bottom: 120px;
+}
+.articles{
+  margin-top: 20px;
+  div{
+    padding: 10px;
+    margin: 1px;
+    background-color: #FFC273;
+  }
+
 }
 product{
   :hover{
@@ -33,4 +52,7 @@ product{
 .modalLitle{
   height: 80px;
   width: 80px;
+}
+.admin{
+  padding: 40px;
 }

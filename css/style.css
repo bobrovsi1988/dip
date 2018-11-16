@@ -1,9 +1,23 @@
-header {
+header, footer {
+  padding-top: 20px;
   background-color: orange; }
-  header .logo {
+  header .logo, footer .logo {
     height: 80px; }
-  header img {
+  header img, footer img {
     height: 30px; }
+  header .menu, footer .menu {
+    background-color: #FFC273;
+    color: black; }
+
+.admin {
+  margin-bottom: 120px; }
+
+.articles {
+  margin-top: 20px; }
+  .articles div {
+    padding: 10px;
+    margin: 1px;
+    background-color: #FFC273; }
 
 product :hover {
   cursor: pointer; }
@@ -21,5 +35,8 @@ product :hover {
 .modalLitle {
   height: 80px;
   width: 80px; }
+
+.admin {
+  padding: 40px; }
 
 /*# sourceMappingURL=style.css.map */
