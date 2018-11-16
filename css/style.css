@@ -5,9 +5,27 @@ header, footer {
     height: 80px; }
   header img, footer img {
     height: 30px; }
+  header h1, footer h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 80px;
+    letter-spacing: 20px; }
+  header .cont, footer .cont {
+    font-family: Calibrit;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px; }
   header .menu, footer .menu {
     background-color: #FFC273;
     color: black; }
+    header .menu li, footer .menu li {
+      margin-right: 20px; }
+    header .menu .menu-btn:hover, footer .menu .menu-btn:hover {
+      background-color: black;
+      color: orange; }
+    header .menu .menu-btn, footer .menu .menu-btn {
+      background-color: orange;
+      font-weight: bold;
+      color: black; }
 
 .admin {
   margin-bottom: 120px; }
@@ -38,5 +56,11 @@ product :hover {
 
 .admin {
   padding: 40px; }
+
+.basket table td {
+  font-weight: bold; }
+.basket table .allcost {
+  font-size: x-large;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */

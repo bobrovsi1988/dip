@@ -9,9 +9,35 @@ header, footer{
   img{
     height: 30px;
   }
+  h1{
+    font-family: 'Allerta Stencil', sans-serif;
+
+    font-weight: 80px;
+    letter-spacing: 20px;
+  }
+  .cont{
+    font-family: Calibrit;
+    font-style: italic;
+    font-weight: bold;
+
+      font-size: 25px;
+
+  }
   .menu{
     background-color: #FFC273;
     color: black;
+    li{margin-right: 20px}
+    .menu-btn:hover{
+
+        background-color: black;
+        color: orange;
+      }
+    .menu-btn{
+      background-color: orange;
+      font-weight: bold;
+      color: black;
+    }
+
   }
   div{
 
@@ -55,4 +81,17 @@ product{
 }
 .admin{
   padding: 40px;
+}
+.basket{
+  table{
+    td{
+      font-weight: bold;
+    }
+    .allcost{
+      font-size: x-large;
+      text-transform: uppercase;
+    }
+
+
+  }
 }
