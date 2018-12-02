@@ -32,7 +32,7 @@
                     <th scope="col">#</th>
                     <th scope="col">название</th>
                     <th scope="col">цена, руб</th>
-                    <th scope="col">колличество</th>
+                    <th scope="col">количество</th>
                     <th scope="col">стоимость</th>
                 </tr>
                 </thead>
@@ -42,7 +42,7 @@
                     <td>дорогая</td>
                     <td class="price">2250</td>
                     <td class="quantity">
-                        <input type="number" value="1" onclick="sumRow()">
+                        <input type="number" value="1" min="0" pattern="[0-9]" onkeypress="return event.charCode >= 48" step="1" onclick="sumRow()">
                     </td>
                     <td class="sum"></td>
                 </tr>
@@ -51,7 +51,7 @@
                     <td>средняя</td>
                     <td class="price">1500</td>
                     <td class="quantity">
-                        <input type="number" value="1" onclick="sumRow()">
+                        <input type="number" value="1" min="0" pattern="[0-9]" onkeypress="return event.charCode >= 48" onclick="sumRow()">
                     </td>
                     <td class="sum"></td>
                 </tr>
@@ -60,13 +60,13 @@
                     <td>дешевая</td>
                     <td class="price">1000</td>
                     <td class="quantity">
-                        <input type="number" value="1" onclick="sumRow()">
+                        <input type="number" value="1" min="0" pattern="[0-9]" onkeypress="return event.charCode >= 48" onclick="sumRow()">
                     </td>
                     <td class="sum"></td>
                 </tr>
                 <tr class="allcost">
                     <td colspan="3"></td>
-                    <td >общаяя стоимoсть</td>
+                    <td >общая стоимoсть</td>
                     <td id="allsum"></td>
                 </tr>
                 </tbody>
